@@ -1,0 +1,15 @@
+## Comandos para remover a imagem do docker
+
+docker rm pgdb -f
+docker rm pgadmin -f
+docker rm pixel-api -f
+docker rm pixel-web -f
+
+
+## Para visualizar os containers que estão ativas
+
+docker ps
+
+
+
+
