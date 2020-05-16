@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Baixando as depedências do projeto'
-                sh 'pip install -r backend/requirements.txt'
+                sh 'pip install -r requirements.txt'
             } 
         }
         stage('Tests') {
