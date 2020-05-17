@@ -46,9 +46,9 @@ Product Form Session
     Login session
     Go To Product Form
 
-Tentative Create Product
-    Go To Create Product
-    Go To Product Form
+# Tentative Create Product
+#     Go To Create Product
+#     Go To Product Form
 
 Open Chrome
     Open Browser    ${base_url}/login    chrome    options=add_experimental_option('excludeSwitches', ['enable-logging'])

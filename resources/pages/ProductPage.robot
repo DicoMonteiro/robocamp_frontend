@@ -6,8 +6,8 @@ ${BUTTON_PRODUCT_ADD}           class:product-add
 
 
 *** Keywords ***
-Go To Create Product
-    Click Element    ${CREATE}
+# Go To Create Product
+#     Click Element    ${CREATE}
 
 Go To Product Form
     Wait Until Element Is Visible    ${BUTTON_PRODUCT_ADD}
@@ -51,6 +51,8 @@ Select Category
 
 Input Producers
     [Arguments]    ${producers}
+
+    # Resolvendo o problema de Deprecated mudando a forma de interação do FOR
 
     FOR    ${item}    IN    @{producers}
         Log           ${item}
